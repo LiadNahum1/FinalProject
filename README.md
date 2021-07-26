@@ -23,13 +23,13 @@ Parameters:
 
 ### Usage
 In order to run the Collab notebook, change the default values of the marked parameters according to the current execution. <br />
-**To run conventional SGD**:
+**To Run Conventional SGD**:
 * change ```DATASET``` default to be the wanted dataset name 
 * ```EPOCHS``` and ```LR_INIT``` defaults are not important because they are the hyper-parameters and on SGD we apply hyper-parameters optimization
 * change  ```SWA``` default to be False
 * change  ```IMPROVED``` default to be False
 
-**To run SWA**:
+**To Run SWA**:
 * change ```DATASET``` default to be the wanted dataset name 
 * denote the number of epochs determined by the optimization for SGD for the same dataset as B. change ```EPOCHS``` default to be 1.5*B
 * denote the lr_init determined by the optimization for SGD for the same dataset. change ```LR_INIT``` default to be the same value. 
@@ -39,7 +39,7 @@ In order to run the Collab notebook, change the default values of the marked par
 * change  ```IMPROVED``` default to be False
 (We implemented the constant learning rate schedule version)
 
-**To run Improved algorithm**:
+**To Run Improved Algorithm**:
 * change ```DATASET``` default to be the wanted dataset name 
 * denote the number of epochs determined by the optimization for SGD for the same dataset as B. change ```EPOCHS``` default to be B
 * denote the lr_init determined by the optimization for SGD for the same dataset. change ```LR_INIT``` default to be the same value. 
@@ -49,7 +49,13 @@ In order to run the Collab notebook, change the default values of the marked par
 * change  ```IMPROVED``` default to be False
 
 ### Results
-The results can be seen in the file "results.xlsx". To reproduce the results, just insert the written arguments corresponding to each dataset and each algorithm. <br />
-For example:
+The results can be seen in the file "results.xlsx". 
+For each dataset (appears in different color in the file), we calculated the requested metrics using the 3 algorithms.
+The reffered metrics are: Accuracy, TPR, FPR, Precision, AUC, PR-Curve, Training time, Inference time for 1000 instances.
+
+For example, results for dataset 'SVHN':
 
 ![alt text](https://github.com/LiadNahum1/FinalProject/blob/master/result_example.PNG)
+
+### Reproducing the Results
+To reproduce the results, just insert the written arguments corresponding to each dataset and each algorithm. 
