@@ -41,7 +41,7 @@ In order to run the Collab notebook, change the default values of the marked par
 
 **To Run Improved Algorithm**:
 * change ```DATASET``` default to be the wanted dataset name 
-* denote the number of epochs determined by the optimization for SGD for the same dataset as B. change ```EPOCHS``` default to be B
+* denote the number of epochs determined by the optimization for SGD for the same dataset as B. change ```EPOCHS``` default to be the same value.
 * denote the lr_init determined by the optimization for SGD for the same dataset. change ```LR_INIT``` default to be the same value. 
 * change  ```SWA``` default to be True
 * change ```SWA_START``` default to be 0.5*B. 
@@ -58,4 +58,4 @@ For example, results for dataset 'SVHN':
 ![alt text](https://github.com/LiadNahum1/FinalProject/blob/master/result_example.PNG)
 
 ### Reproducing the Results
-To reproduce the results, just insert the arguments corresponding to each dataset and each algorithm as they written in the 'results.xlsx' report. 
+To reproduce the results, just insert the arguments corresponding to each dataset and each algorithm as explained above while ```LR_INIT``` and ```EPOCHS``` are the values written in the hyper-parameters column in the 'results.xlsx' report. 
