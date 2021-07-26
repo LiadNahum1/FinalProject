@@ -58,4 +58,4 @@ For example, results for dataset 'SVHN':
 ![alt text](https://github.com/LiadNahum1/FinalProject/blob/master/result_example.PNG)
 
 ### Reproducing the Results
-To reproduce the results, just insert the written arguments corresponding to each dataset and each algorithm. 
+To reproduce the results, just insert the arguments corresponding to each dataset and each algorithm as they written in the 'results.xlsx' report. 
