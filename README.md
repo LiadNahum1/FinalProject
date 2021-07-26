@@ -36,7 +36,7 @@ In order to run the Collab notebook, change the default values of the marked par
 * change  ```SWA``` default to be True
 * change ```SWA_START``` default to be 0.75*B. 
 * change ```SWA_LR``` default to be the same as ```LR_INIT``` 
-* change  ```IMPROVED``` default to be False <br \>
+* change  ```IMPROVED``` default to be False <br />
 (We implemented the constant learning rate schedule version)
 
 **To Run Improved Algorithm**:
