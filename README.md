@@ -51,4 +51,5 @@ In order to run the Collab notebook, change the default values of the marked par
 ### Results
 The results can be seen in the file "results.xlsx". To reproduce the results, just insert the written arguments corresponding to each dataset and each algorithm. <br />
 For example:
+
 ![alt text](https://github.com/LiadNahum1/FinalProject/blob/master/result_example.PNG)
