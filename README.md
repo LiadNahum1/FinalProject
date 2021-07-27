@@ -5,8 +5,8 @@ The code in this repository implements three loss optimization algorithms: conve
 For each algorithm, we used the VGG16 model and evaluated the model on eleven different dataset taken from https://pytorch.org/vision/stable/datasets.html/ 
 
 ### About the code
-The code is based on the paper authors' code which can be seen in https://github.com/timgaripov/swa.
-We implemented our project in Google Collaboratory in order to get GPU and memory resources. 
+The code is based on the paper authors' code which is available in https://github.com/timgaripov/swa.
+We extended their code and implemented our project in Google Collaboratory in order to get GPU and memory resources. 
 (However, one can download the code as a regular python file and run the code with the corresponding arguments as shown in the author's repository)
 
 To run the code using the Collab notebook we refer to the function 'get_args' and to the makred arguments:
