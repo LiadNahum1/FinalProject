@@ -45,7 +45,7 @@ In order to run the Collab notebook, change the default values of the marked par
 * denote the lr_init determined by the optimization for SGD for the same dataset. change ```LR_INIT``` default to be the same value. 
 * change  ```SWA``` default to be True
 * change ```SWA_START``` default to be 0.5*B. 
-* change ```SWA_LR``` default to be a bit larger than ```LR_INIT``` 
+* change ```SWA_LR``` default to be ```LR_INIT``` + 0.02 
 * change  ```IMPROVED``` default to be False
 
 ### Results
